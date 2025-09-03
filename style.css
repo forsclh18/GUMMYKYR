@@ -1,0 +1,88 @@
+/* Global warna */
+:root {
+  --brand-dark: #111;
+  --brand-light: #f9f9f9;
+  --brand-accent: #e63946;
+}
+
+body {
+  background-color: var(--brand-light);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--brand-dark);
+}
+
+/* Navbar */
+.navbar {
+  font-size: 0.95rem;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--brand-dark) !important;
+}
+
+/* Hero */
+.hero-section {
+  background: linear-gradient(135deg, #fff, #f1f1f1);
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.hero-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+/* Produk card */
+.product-card .card {
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.product-card .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background: var(--brand-dark);
+  color: #aaa;
+}
+
+footer small {
+  color: #ddd;
+}
+
+footer a.text-light:hover {
+  color: #fff;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+/* Thumbnail gallery */
+#thumbs img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#thumbs img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+
